@@ -1,0 +1,41 @@
+body {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 100%;
+}
+
+input [type="password"] {
+  padding: 5px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
